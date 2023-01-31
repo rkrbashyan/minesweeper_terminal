@@ -1,0 +1,30 @@
+{
+    "name": "minesweeper_terminal",
+    "version": "1.0.0",
+    "description": "Minesweeper terminal version",
+    "exports": "./index.js",
+    "type": "module",
+    "scripts": {
+        "play:easy": "LEVEL=easy ts-node --esm ./index.ts",
+        "play:medium": "LEVEL=medium ts-node --esm ./index.ts",
+        "play:hard": "LEVEL=hard ts-node --esm ./index.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rkrbashyan/minesweeper_terminal.git"
+    },
+    "keywords": [
+        "Minesweeper",
+        "Terminal"
+    ],
+    "author": "Ruben Krbashyan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rkrbashyan/minesweeper_terminal/issues"
+    },
+    "homepage": "https://github.com/rkrbashyan/minesweeper_terminal#readme",
+    "devDependencies": {
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.5"
+    }
+}
